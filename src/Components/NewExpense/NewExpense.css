@@ -1,0 +1,32 @@
+.main {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.section1 {
+  position: relative;
+  background-color: rgb(216, 181, 216);
+  width: 100%;
+  font-size: large;
+  font-weight: bold;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.section1 > button {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  background-color: blueviolet;
+  font-size: 30px;
+  font-weight: bold;
+  height: 40px;
+}
+
+.section2 > form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid red;
+}

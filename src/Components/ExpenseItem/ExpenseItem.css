@@ -1,0 +1,8 @@
+.item-main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px auto;
+  background-color: #444;
+  align-items: center;
+  color: white;
+}
